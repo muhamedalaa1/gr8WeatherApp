@@ -2,7 +2,7 @@
 // variables
 
 const apiKey =  "922d8b3605104b1097852751231608"
-const baseUrl ="http://api.weatherapi.com/v1/forecast.json";
+const baseUrl ="https://api.weatherapi.com/v1/forecast.json";
 let currentLocation = "cairo"
 let cardsContainer = document.querySelector(".forecast-cards");
 let locationEle = document.querySelector("p.location");
